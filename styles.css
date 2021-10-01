@@ -67,6 +67,7 @@ body {
 }
 
 #files {
+  box-shadow: 0 0 13px rgb(37, 37, 37);
   display: inline-block;
   border: 1px rgb(70, 70, 70) solid;
   z-index: -50;
@@ -125,6 +126,7 @@ i {
 
 /* MAIN ACTION SIDEBAR */
 #action-sidebar {
+  z-index: 20;
   display: inline-block;
   background: rgb(49, 49, 49);
   height: 100%;
@@ -140,11 +142,16 @@ i {
   display: inline-block;
   height: 50px;
   width: 50px;
+  transition-duration: 0.1s;
 }
 
 .as-btn:hover {
   color: white;
   background: rgb(58, 58, 58);
+}
+
+.as-btn:active {
+  background: rgb(73, 73, 145);
 }
 .sb-btn-gly {
   padding-top: 0!important;
