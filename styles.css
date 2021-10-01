@@ -8,6 +8,7 @@ body {
 
 * {
   color: white;
+  cursor: default;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -23,20 +24,28 @@ body {
 .sb-btn {
   z-index: 33; /* ZINDEX HANDLER */
   user-select: none;
-  margin: 9px 5px 5px 5px;
+  margin: 7px 2px 2px 2px;
   border: rgb(65, 65, 65) 1px solid;
   background: none;
   cursor: pointer;
-  transition-duration: 0.3s;
+  transition-duration: 0.1s;
   outline: none;
   border-radius: 7px;
   color: rgb(172, 172, 172) !important;
+  height: 30px;
+  width: 80px;
 }
 
 .sb-btn:hover {
   background: rgb(78, 78, 78);
   border: rgb(95, 95, 95) 1px solid;
 }
+
+.sb-btn:active {
+  background: rgb(79, 79, 150);
+  border: 1px rgb(79, 79, 150) solid;
+}
+
 
 #sidebar-status {
   pointer-events: none;
@@ -60,9 +69,9 @@ body {
 #files {
   display: inline-block;
   border: 1px rgb(70, 70, 70) solid;
-  border-top: none;
   z-index: -50;
   height: 100%;
+  padding-top: -15px;
   width: 300px;
   background: rgb(55, 55, 55);
 }
@@ -73,8 +82,13 @@ body {
   height: 30px;
   background: rgb(60, 60, 60);
   color: rgb(200, 200, 200);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Menlo,Cascadia Mono,Consolas,Liberation Mono,monospace;
   text-align: left;
+  font-size: 12.5px;
+}
+
+svg, path {
+  cursor: pointer;
 }
 
 .fl-btn:hover {
@@ -82,12 +96,14 @@ body {
   user-select: none;
 }
 
+
 .main-sb-btn {
   padding-left: 16.5px;
   font-size: larger;
-  color: rgb(23, 179, 226);
+  color: rgb(97, 97, 245);
   text-shadow: none;
   padding-right: 8px;
+  transition-duration: 0.1s;
 }
 
 .main-sb-btn:hover {
@@ -96,8 +112,11 @@ body {
 
 .main-sb-btn:hover::before {
   font-family: 'Montserrat', sans-serif;
-  content: 'Dashboard';
+  content: ' Dashboard ';
   cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+  text-shadow: 0 0 4px rgb(25, 179, 226);
 }
 
 i {
