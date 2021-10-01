@@ -3,7 +3,7 @@
 
 body {
   background: rgb(45, 45, 45) !important;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 * {
@@ -67,10 +67,11 @@ body {
 }
 
 #files {
-  box-shadow: 0 0 13px rgb(37, 37, 37);
+  position: absolute;
+  border-top: none;
   display: inline-block;
   border: 1px rgb(70, 70, 70) solid;
-  z-index: -50;
+  z-index: 50;
   height: 100%;
   padding-top: -15px;
   width: 300px;
