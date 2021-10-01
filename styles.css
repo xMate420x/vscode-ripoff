@@ -3,7 +3,7 @@
 
 body {
   background: rgb(45, 45, 45) !important;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 * {
@@ -155,4 +155,11 @@ i {
 }
 .sb-btn-gly {
   padding-top: 0!important;
+}
+
+#main {
+  border: red 1px solid;
+  width: 80%;
+  height:90%;
+  float: left;
 }
