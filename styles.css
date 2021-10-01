@@ -29,7 +29,7 @@ body {
   transition-duration: 0.3s;
   outline: none;
   border-radius: 7px;
-  color: rgb(200, 200, 200) !important;
+  color: rgb(172, 172, 172) !important;
 }
 
 .sb-btn:hover {
@@ -38,7 +38,6 @@ body {
 }
 
 #sidebar-status {
-  /* ZINDEX HANDLER */
   pointer-events: none;
   background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Blanco.svg/120px-Blanco.svg.png');
   width: 100%;
@@ -57,6 +56,7 @@ body {
 }
 
 #files {
+  display: inline-block;
   border: 1px rgb(70, 70, 70) solid;
   border-top: none;
   z-index: -50;
@@ -92,4 +92,22 @@ body {
   font-family: 'Montserrat', sans-serif;
   content: 'Dashboard';
   cursor: pointer;
+}
+
+i {
+  user-select: none;
+}
+
+/* MAIN ACTION SIDEBAR */
+#action-sidebar {
+  display: inline-block;
+  background: red;
+  height: 100%;
+  width: 50px;
+}
+
+.as-btn {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
 }
