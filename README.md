@@ -1,3 +1,3 @@
-# sussy imposr
+# Trying to recreate vscodes UI
 
-### yeh my html design sucks
+## pain is real (real)
