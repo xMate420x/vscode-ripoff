@@ -71,7 +71,7 @@ body {
   height: 30px;
   background: rgb(60, 60, 60);
   color: rgb(200, 200, 200);
-  font-family: monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
 }
 

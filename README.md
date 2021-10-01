@@ -1,3 +1,3 @@
-# vscode-ripoff
+# sussy imposr
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vscode-ripoff)
+### yeh my html design sucks
