@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Starting Visual Studio Code (100% real)"
+chromium --kiosk index.html
